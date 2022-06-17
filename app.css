@@ -12,9 +12,26 @@ body {
     border-radius: 40px;
 }
 
+
+#generate {
+    border-radius: 10px;
+    width: 50%;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+/* Images */
+
 .logo {
     width: 70%;
 }
+
+.pokemonimg {
+    width: 200px;
+}
+
+/* Texts */
 
 .idtext {
     color: black;
@@ -47,20 +64,4 @@ p {
     text-align: center;
 }
 
-#generate {
-    border-radius: 10px;
-    width: 50%;
-    font-size: 13px;
-    font-weight: 500;
-    letter-spacing: 2px;
-}
-
-
-.pokemonimg {
-    width: 200px;
-}
-
-.pokemonid {
-    color: black;
-}
 
