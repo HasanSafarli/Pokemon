@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+
+#cont-backgr {
+    background-color: #BBF7FF;
+    border-radius: 40px;
+}
+
+.logo {
+    width: 70%;
+}
+
+.idtext {
+    color: black;
+    text-decoration: none;
+    font-weight:500;
+    font-size: 26px;
+    letter-spacing: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color:rgb(49, 49, 131)
+}
+
+span {
+    text-decoration: underline;
+}
+
+.moreinfo {
+    font-weight:500;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+
+p {
+    text-align: center;
+}
+
+#generate {
+    border-radius: 10px;
+    width: 50%;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+
+.pokemonimg {
+    width: 200px;
+}
+
+.pokemonid {
+    color: black;
+}
+
