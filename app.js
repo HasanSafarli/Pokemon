@@ -18,7 +18,7 @@ button.addEventListener('click', function generatePokemon() {
         newImg.src = `${baseURL}${randomNum}.png`
         pokeNum.innerText = `ID: ${randomNum}`
                 
-        pokeInfo.innerHTML = `<a href="https://www.google.com/search?q=pokemon+number+${randomNum}" target="_blank">
+        pokeInfo.innerHTML = `<a href="https://www.google.com/search?q=pokemon+number+${randomNum}" target="_blank" rel="noreferrer noopener">
         <span>click here</span><br>
         for more information<br>
         about the pokemon
